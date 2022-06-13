@@ -51,8 +51,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                     <img src={image ? image : placeholder} alt={name} />
                     <div className='project--showcaseBtn'>
                         <a
-                            href={demo}
-                            target='_blank'
+                            // href={demo}
+                            // target='_blank'
                             rel='noreferrer'
                             className={classes.iconBtn}
                             aria-labelledby={`${name
@@ -70,8 +70,8 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                             />
                         </a>
                         <a
-                            href={code}
-                            target='_blank'
+                            // href={code}
+                            // target='_blank'
                             rel='noreferrer'
                             className={classes.iconBtn}
                             aria-labelledby={`${name

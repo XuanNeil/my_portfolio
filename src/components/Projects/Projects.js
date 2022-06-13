@@ -13,7 +13,6 @@ function Projects() {
 
     const { theme } = useContext(ThemeContext);
 
-    
     const useStyles = makeStyles(() => ({
         viewAllBtn : {
             color: theme.tertiary, 

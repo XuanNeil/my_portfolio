@@ -1,10 +1,8 @@
 import React, {useContext} from 'react'
-import bg_video from '../../assets/video/bg_video.mp4'
 import Content from './ContentHeader/ContentHeader'
 import CloudImage from './CloudImage/CloudImage'
 import './Header.css'
 import '../Landing/Landing.css'
-import {headerData} from "../../data/headerData";
 import {Button} from "@material-ui/core";
 import {NavHashLink as NavLink} from "react-router-hash-link";
 import {makeStyles} from "@material-ui/core/styles";
@@ -59,12 +57,19 @@ const Header = () => {
             },
             margin: '4px'
         },
+        heroBGVideoWrapper: {
+        width: '100%',
+        [t.breakpoints.down('sm')]: {
+            height: '350px'
+        },
+        height: '500px',
+        position: "relative"
+    }
     }));
 
     const classes = useStyles();
     return (
-        <div className='heroBGVideoWrapper'>
-            <video autoPlay loop muted className='heroBGVideo' src={bg_video} />
+        <div className={classes.heroBGVideoWrapper}>
             <CloudImage />
             <Content />
             <div className='button-content'>

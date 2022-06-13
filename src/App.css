@@ -2,6 +2,12 @@
   text-align: center;
 }
 
+:root {
+  --primaryFont: 'Poppins', sans-serif;
+  /* --primaryFont: 'Montserrat', sans-serif; */
+  /* --primaryFont: 'Raleway', sans-serif; */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
