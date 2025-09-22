@@ -7,16 +7,17 @@ import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
 import eight from '../assets/svg/projects/eight.svg'
 import e_learning from '../assets/png/img.png'
+import mirron01 from '../assets/png/01.png'
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Mirron App',
-        projectDesc: 'Dự án về kết nối giữa user và stylist tóc. Sản phẩn chủ yếu phục vụ thị trường Châu Phi, với hơn 100.000 nghìn lượt tải trên AppStore và CH Play.',
-        tags: ['React Native', 'Node js', 'Typescript'],
+        projectName: 'Mirron: Explore Beauty Nearby',
+        projectDesc: 'Là nền tảng kết nối trực tuyến miễn phí dành cho các nhà tạo mẫu tóc và khách hàng tại Châu Phi. Bạn có thể tìm thấy nhà tạo mẫu tóc phù hợp nhất với nhu cầu làm đẹp của mình gần nhất theo yêu cầu. Sản phẩn chủ yếu phục vụ thị trường Châu Phi, với hơn 100.000 nghìn lượt tải trên AppStore và CH Play.',
+        tags: ['React Native','ReactJs', 'Node js', 'Typescript'],
         code: '#',
-        demo: '#',
-        image: "https://github.com/sreerag-rajan/historythroughmovies/raw/master/htclandingpage.png"
+        demo: 'https://mirron.me/',
+        image: mirron01,
     },
     {
         id: 3,
